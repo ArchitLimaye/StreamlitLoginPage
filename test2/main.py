@@ -12,13 +12,13 @@ if btn:
     if email in login and login[email] == password:
         st.success("Login Successful")
         if email=="FS23AI001":
-            st.title('Welcome Archit! :sunglasses:')
+            st.title('Welcome FS23AI001! :sunglasses:')
         elif email=="FS23AI002":
-            st.title('Welcome Divya! :sunglasses:')
+            st.title('Welcome FS23AI002! :sunglasses:')
         elif email=="FS23AI003":
-            st.title('Welcome Rashid! :sunglasses:')
+            st.title('Welcome FS23AI003! :sunglasses:')
         elif email=="FS23AI004":
-            st.title('Welcome Nikhil! :sunglasses:')
+            st.title('Welcome FS23AI004! :sunglasses:')
         st.balloons()
     else:
         st.error("Login Failed!! Please try again!!!")
